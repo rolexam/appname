@@ -1,0 +1,31 @@
+{
+    "name": "rolexam/appname",
+    "description": "Laravel's deprecated app name command.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "rolexam",
+            "email": "simon.zohrabyan@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "app:name",
+        "namespace",
+        "app"
+    ],
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rolexam\\AppName\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Rolexam\\AppName\\AppNameServiceProvider"
+            ]
+        }
+    }
+}
